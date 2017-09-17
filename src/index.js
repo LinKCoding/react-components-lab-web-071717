@@ -45,8 +45,8 @@ export class ButcherShop extends React.Component {
 ReactDOM.render(
   React.createElement('div', {}, [
     React.createElement(OlderCoaster),
-    React.createElement(InFrontOfYou)
-    // React.createElement(ButcherShop)
+    React.createElement(InFrontOfYou),
+    React.createElement(ButcherShop)
   ]),
   document.getElementById('root')
 );
